@@ -76,12 +76,13 @@ header,nav,footer {
   	font-weight: 300;
 	line-height : 36px;
   	letter-spacing : 0.2px;
-  	margin: 4em 0 0 0;
+  	margin: 4em 1em  0;
   	
 }
 
 .Main-derSub {
 	color: #0097A7; 
+	margin-left: 3.3em;
 } 
 
 .Main-derIconHolder {
@@ -100,13 +101,11 @@ header,nav,footer {
 	display: inline-block;
 	font-size: 0px;
 	height: 90px;
-	position: relative;
 	text-align: center;
 	width: 90px;
 	z-index: 1;
 	text-decoration: none;
-
-
+	margin: 0 30px;
 }
 
 .Main-derIcon:after {
@@ -119,6 +118,7 @@ header,nav,footer {
 	-webkit-box-sizing: content-box; 
 	-moz-box-sizing: content-box; 
 	box-sizing: content-box;
+	display: block;
 }
 
 .Main-derIcon:before {
@@ -152,6 +152,13 @@ header,nav,footer {
 
 }
 
-.Main-derIconText {
+.Main-derTextHolder {
+	margin-right: 6em;
+}
+.Main-derText {
 	display: inline-block;
+	color: white;
+	font-weight: 400;
+	font-size: 12px;
+	margin-right:  3em;
 }
