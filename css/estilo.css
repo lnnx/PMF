@@ -1,0 +1,57 @@
+html, body{
+  height:100%;
+}
+
+body {
+	min-height: 100%;
+}
+
+header,nav,footer {
+	display: none;
+}
+
+.Main-izq {
+	background-image: url("../img/back-left.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+	height: 100%;
+	width: 50%;
+}
+
+.Main-izqLogo {
+	display: block;
+	margin-top: 7em;
+}
+
+.Main-izqImagen {
+	width: 35%;
+	display: block;
+	margin: 0 auto;
+
+
+}
+
+.Main-izqTexto {
+	text-align: center;
+	font-weight: 300;
+	font-size: 2em;
+	line-height : 40px;
+  	letter-spacing : 0.17px;
+  	margin-top: 2.5em;
+}
+
+.Main-izqTexto span {
+	font-weight: 400;
+	color: #0097A7;
+}
+
+
+.Main-der {
+	background-color: #36464E;
+	display: inline-block;
+	height: 100%;
+	vertical-align: top;
+	width: 49%;
+}
