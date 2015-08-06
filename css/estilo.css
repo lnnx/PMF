@@ -106,6 +106,7 @@ header,nav,footer {
 	z-index: 1;
 	text-decoration: none;
 
+
 }
 
 .Main-derIcon:after {
@@ -128,9 +129,9 @@ header,nav,footer {
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
-	text-transform: none;
-	display: block;
+	text-transform: none;	
 	-webkit-font-smoothing: antialiased;
+	display: block;
 }
 
 
@@ -139,8 +140,9 @@ header,nav,footer {
 }
 
 .iconTel:before {
-		content: "\e048";
-
+	content: "\e048";
+	 
+	
 
 }
 
