@@ -27,12 +27,12 @@
 }
 
 html, body{
-  height:100%;
+  
 }
 
 body {
-
-	background-color: #36464E;
+	
+	
 }
 
 ::-moz-selection {
@@ -45,14 +45,11 @@ body {
 header,nav,footer {
 	display: none;
 }
-
-
-
+ 
 .MainHolder {
-	width: 100%;
-	height: 100%;
-
+	overflow: hidden;
 }
+
 
 
 
@@ -62,40 +59,32 @@ header,nav,footer {
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: inline-block;
-	height: 100%;
-	width: 50%;
-	overflow: hidden;	
+	height: 798px;
+	width: 50%;	
 }
 
 .Main-izqLogo {
-	display: block;
-	margin: 0;
-	height: 50%;
-	position: relative;
-	
+	margin: 125px auto 25px auto;
+    width: 200px;
+    height: 218px;
 }
 
-.Main-izqImagen {
-	width: 40%;
-	text-align: center;
-	top: 30%;
-	left: 31%;
-	position: absolute;
+.Main-izq img {
+	width: 200px;
+    height: 218px;
 }
 
-.Main-izqTexto {
+
+h2 {
 	text-align: center;
 	font-weight: 300;
 	font-size: 2em;
-	line-height : 40px;
+	line-height: 40px;
   	letter-spacing : 0.17px;
-
-
-  	
-  	
+	margin: 0;  
 }
 
-.Main-izqTexto span {
+ span {
 	font-weight: 400;
 	color: #0097A7;
 }
@@ -104,17 +93,14 @@ header,nav,footer {
 .Main-der {
 	background-color: #36464E;
 	display: inline-block;
-	height: 100%;
-	position: relative;
-	vertical-align: top;
-	width: 49%;
-
+	width: 50%;
+	height: 798px;	
+	float: right;
 }
 
 .Main-derContacte {
-	position: absolute;
-	top: 25%;
-	left: 10%;
+	margin: 200px 76px 20px 76px;
+	
 
 }
 
@@ -124,27 +110,23 @@ header,nav,footer {
   	font-weight: 300;
 	line-height : 36px;
   	letter-spacing : 0.2px; 
-  	margin-bottom: 0;
+  	margin-bottom: .1em;
 
 }
 
-.Main-derSub {
+.Main-derContacte p {
 	color: #0097A7; 
 	margin-left: .2em;	
-	margin-top: .5em;
+	margin-top: 0;
+	
 
 } 
 
-.Main-derIconSpace {
-	position: relative;
-	height: 50%;
-	top: 52%;
-	
-}
+
 .Main-derIconHolder {
-	position: absolute;
 	width: 100%;
 	text-align: center;
+	margin-top: 100px;
 
 }
 
