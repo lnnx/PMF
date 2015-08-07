@@ -51,13 +51,10 @@ header,nav,footer {
 .MainHolder {
 	width: 100%;
 	height: 100%;
-	position: relative;
+
 }
 
-.Main-izqHolder {
-	position: absolute;
-	padding: 2em;
-}
+
 
 .Main-izq {
 	background-image: url("../img/back-left.png");
@@ -67,21 +64,23 @@ header,nav,footer {
 	display: inline-block;
 	height: 100%;
 	width: 50%;
-	overflow: hidden;
-	position: relative;
+	overflow: hidden;	
 }
 
 .Main-izqLogo {
 	display: block;
-	margin-top: 6em;
+	margin: 0;
+	height: 50%;
+	position: relative;
+	
 }
 
 .Main-izqImagen {
-	width: 45%;
-	display: block;
-	margin: 0 auto;
-
-
+	width: 40%;
+	text-align: center;
+	top: 30%;
+	left: 31%;
+	position: absolute;
 }
 
 .Main-izqTexto {
@@ -90,7 +89,10 @@ header,nav,footer {
 	font-size: 2em;
 	line-height : 40px;
   	letter-spacing : 0.17px;
-  	margin-top: 2.5em;
+
+
+  	
+  	
 }
 
 .Main-izqTexto span {
@@ -98,58 +100,61 @@ header,nav,footer {
 	color: #0097A7;
 }
 
-.Main-derHolder {
-	position: relative;
-	padding: 0 0 0 2em;
-}
+
 .Main-der {
 	background-color: #36464E;
 	display: inline-block;
 	height: 100%;
+	position: relative;
 	vertical-align: top;
-	position: absolute;
-	
+	width: 49%;
 
 }
 
-.Main-der h1 {
+.Main-derContacte {
+	position: absolute;
+	top: 25%;
+	left: 10%;
+
+}
+
+.Main-derContacte h1 {
   	color : white;
   	font-size: 3em;
   	font-weight: 300;
 	line-height : 36px;
-  	letter-spacing : 0.2px;
-  	margin-top: 4em;
+  	letter-spacing : 0.2px; 
   	margin-bottom: 0;
-  	
+
 }
 
 .Main-derSub {
 	color: #0097A7; 
-	margin-top: 1em;
-	margin-left: .3em;
+	margin-left: .2em;	
+	margin-top: .5em;
+
 } 
 
-.Main-derContacte {
-	display: block;
-	margin-left: 2em;
+.Main-derIconSpace {
+	position: relative;
+	height: 50%;
+	top: 52%;
+	
 }
 .Main-derIconHolder {
-	
-	margin: 0 auto;
-	padding: 2em 0 0 1em;
-	text-align: center;
+	position: absolute;
 	width: 100%;
-
+	text-align: center;
 
 }
 
 .Main-derIcont {
 	display: inline-block;
-	width: 110px;
-	height: 150px;
-	margin-right: 2em;
-
+	margin: 0 1em;
+	
+	
 }
+
 
 .Main-derIcon {
 	border-color: white; 
@@ -164,7 +169,7 @@ header,nav,footer {
 	width: 90px;
 	z-index: 1;
 	text-decoration: none;
-	margin: 1em 10px;
+	
 }
 
 .Main-derIcon:after {
@@ -199,11 +204,7 @@ header,nav,footer {
 	font-weight: 400;
 	font-size: 12px;
 	text-align: center;
-	margin-top: 1em;
-	padding: 1em;
 
-	
-	
 }
 
 
