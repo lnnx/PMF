@@ -9,18 +9,54 @@
 	font-style: normal;
 }
 
+.iconSobre:before {
+	content: "\e01f";
+}
+
+.iconTel:before {
+	content: "\e048";
+	 
+	
+
+}
+
+.iconMap:before {
+	content: "\e096";
+
+
+}
 
 html, body{
   height:100%;
 }
 
 body {
-	min-height: 100%;
+
 	background-color: #36464E;
+}
+
+::-moz-selection {
+	background: #E0F7FA;
+}
+::selection {
+	background: #E0F7FA;
 }
 
 header,nav,footer {
 	display: none;
+}
+
+
+
+.MainHolder {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.Main-izqHolder {
+	position: absolute;
+	padding: 2em;
 }
 
 .Main-izq {
@@ -31,15 +67,17 @@ header,nav,footer {
 	display: inline-block;
 	height: 100%;
 	width: 50%;
+	overflow: hidden;
+	position: relative;
 }
 
 .Main-izqLogo {
 	display: block;
-	margin-top: 7em;
+	margin-top: 6em;
 }
 
 .Main-izqImagen {
-	width: 35%;
+	width: 45%;
 	display: block;
 	margin: 0 auto;
 
@@ -60,13 +98,17 @@ header,nav,footer {
 	color: #0097A7;
 }
 
-
+.Main-derHolder {
+	position: relative;
+	padding: 0 0 0 2em;
+}
 .Main-der {
 	background-color: #36464E;
 	display: inline-block;
 	height: 100%;
 	vertical-align: top;
-	width: 49%;
+	position: absolute;
+	
 
 }
 
@@ -76,19 +118,36 @@ header,nav,footer {
   	font-weight: 300;
 	line-height : 36px;
   	letter-spacing : 0.2px;
-  	margin: 4em 1em  0;
+  	margin-top: 4em;
+  	margin-bottom: 0;
   	
 }
 
 .Main-derSub {
 	color: #0097A7; 
-	margin-left: 3.3em;
+	margin-top: 1em;
+	margin-left: .3em;
 } 
 
+.Main-derContacte {
+	display: block;
+	margin-left: 2em;
+}
 .Main-derIconHolder {
-	text-align: center;
+	
 	margin: 0 auto;
-	padding: 2em 0 3em;
+	padding: 2em 0 0 1em;
+	text-align: center;
+	width: 100%;
+
+
+}
+
+.Main-derIcont {
+	display: inline-block;
+	width: 110px;
+	height: 150px;
+	margin-right: 2em;
 
 }
 
@@ -105,14 +164,12 @@ header,nav,footer {
 	width: 90px;
 	z-index: 1;
 	text-decoration: none;
-	margin: 0 30px;
+	margin: 1em 10px;
 }
 
 .Main-derIcon:after {
 	pointer-events: none;
 	position: absolute;
-	width: 100%;
-	height: 100%;
 	border-radius: 50%;
 	content: '';
 	-webkit-box-sizing: content-box; 
@@ -132,33 +189,26 @@ header,nav,footer {
 	text-transform: none;	
 	-webkit-font-smoothing: antialiased;
 	display: block;
-}
-
-
-.iconSobre:before {
-	content: "\e01f";
-}
-
-.iconTel:before {
-	content: "\e048";
-	 
-	
+	cursor: text;
 
 }
 
-.iconMap:before {
-	content: "\e096";
-
-
-}
-
-.Main-derTextHolder {
-	margin-right: 6em;
-}
 .Main-derText {
-	display: inline-block;
+	display: block;
 	color: white;
 	font-weight: 400;
 	font-size: 12px;
-	margin-right:  3em;
+	text-align: center;
+	margin-top: 1em;
+	padding: 1em;
+
+	
+	
 }
+
+
+
+
+
+	
+
