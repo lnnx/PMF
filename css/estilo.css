@@ -22,10 +22,12 @@
 }
 
 ::-moz-selection {
-	background: #E0F7FA;
+	background: #B2EBF2
+;
 }
 ::selection {
-	background: #E0F7FA;
+	background: #B2EBF2
+;
 }
 
 header,nav,footer {
